@@ -1,0 +1,134 @@
+.App{
+  background-color: rgb(253, 253, 253);
+}
+
+.Content{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4%;
+  justify-content: center;
+  width: 100%;
+  color: rgb(51, 170, 160);
+}
+
+.ContentUserInfo{
+  color: rgb(35, 83, 241);
+}
+
+.ContentInfo{
+  width: 20%;
+  border: 1px solid white;
+  padding: 4px;
+}
+
+.ScrollToTop{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1%;
+  padding: 4px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: #27c5ca;
+  color: #fff;
+}
+
+.ScrollToBottom{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 95%;
+  padding: 4px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: #27c5ca;
+  color: #fff;
+}
+
+.ScrollToBottom:hover{
+  cursor: pointer;
+  background: #056063;
+  color: rgb(199, 192, 192);
+}
+
+.ScrollToTop:hover{
+  cursor: pointer;
+  background: #056063;
+  color: rgb(199, 192, 192);
+}
+
+
+.Header{
+  display: flex;
+  background-color: #27c5ca;
+  padding: 1px;
+}
+
+.HeaderItem{
+  text-decoration: none;
+  margin: 3%;
+}
+
+
+.Table-wrapper {
+  overflow-y: scroll;
+  overflow-x: scroll;
+  height: fit-content;
+  max-height: 66.4vh;  
+  margin: 15px;  
+}
+
+.Table-Table th{
+  position: sticky; 
+  top: 0;
+  z-index: 2;
+  background-color: rgb(173, 170, 170);
+  text-align: center;
+  border: 1.5px solid black;
+} 
+
+.Table-Table th, .Table-Table td { 
+  padding: 15px;
+}
+
+.Table-Table td { 
+  font-size: 15px;
+  border: 1px solid black;
+  text-align:start;
+}
+
+.Table-Table th:nth-child(1){
+  position: sticky; 
+  background-color: rgb(151, 149, 149);
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.Table-Table th:nth-child(2){
+  position: sticky; 
+  background-color: rgb(151, 149, 149);
+  top: 0;
+  left: 5%;
+  z-index: 3;
+}
+
+.Table-Table td:nth-child(1){
+  position: sticky; 
+  background-color: lightgray;
+  left: 0;
+  z-index: 1;
+}
+
+.Table-Table td:nth-child(2){
+  background-color: lightgray;
+  position: sticky; 
+  left: 5%;
+  z-index: 1;
+}
+
+
